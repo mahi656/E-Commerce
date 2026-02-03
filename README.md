@@ -61,7 +61,6 @@ A platform that provides **skin-type-based personalization**, AI recommendations
 
 ## 🚀 Future Enhancements
 - Admin dashboard for product management  
-- ML-based skin analysis using images  
 - Subscription-based skincare plans  
 - Reviews based on skin type  
 - Ingredient sensitivity detection  
