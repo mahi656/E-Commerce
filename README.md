@@ -45,9 +45,9 @@ A platform that provides **skin-type-based personalization**, AI recommendations
 
 ### 2️⃣ Backend Flow
 - **User Authentication:** JWT-based signup/login  
-- **Database Models:** Users, Products, Orders (major models only)  
+- **Database Models:** Users, Products, Orders 
 - **Payment Handling:** Stripe / Razorpay integration  
-- **AI Logic:** Rule-based skin type prediction (extendable to ML)  
+- **AI Logic:** Rule-based skin type prediction 
 - **APIs:** CRUD operations for users, products, and orders  
 
 ---
