@@ -23,7 +23,7 @@ A platform that provides **skin-type-based personalization**, AI recommendations
 #### a) Landing / Product Browsing
 - Users land on homepage  
 - Browse natural skincare products  
-- Product details include ingredients, benefits, suitable skin types, and pricing
+- Product details include ingredients, benefits, suitable skin types, and pricing.
 
 #### b) AI-Based Skin Analysis (Core Feature)
 - Users take **quiz-based skin analysis**  
