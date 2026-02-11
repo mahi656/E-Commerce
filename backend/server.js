@@ -1,3 +1,8 @@
+const mongoose = require("mongoose")
+mongoose.connect("mongodb+srv://username:password@cluster0.50r0ysh.mongodb.net/ecommerce")
+.then(() => console.log("MongoDB Connected"))
+.catch((err) => console.log(err))
+
 const process = require('process')
 const express = require('express')
 const cors = require('cors')
