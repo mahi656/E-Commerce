@@ -1,7 +1,7 @@
-# 🌿 Natural Skincare Next.js E-Commerce Platform
+# 🌿 Natural Skincare E-Commerce Platform
 
 ## 📌 Project Overview
-A full-stack **Next.js + Node.js e-commerce platform** for natural and organic skincare.  
+A full-stack **React + Node.js e-commerce platform** for natural and organic skincare.  
 It provides **personalized product recommendations based on skin type**, supports **secure online payments**, and includes an **AI-based skin analysis feature**.
 
 ---
