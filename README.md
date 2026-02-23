@@ -56,7 +56,7 @@ A platform that provides **skin-type-based personalization**, AI recommendations
 ---
 
 ## 🎨 Frontend Flow
-- Built with **Next.js + Tailwind CSS**  
+- Built with **React.js + Tailwind CSS**  
 - **Data Fetching:** Axios / Fetch calls to backend APIs  
 - **Dynamic Filtering:** Products filtered based on skin type  
 
