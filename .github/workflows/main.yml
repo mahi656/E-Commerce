@@ -16,19 +16,19 @@ jobs:
     - name: Set up Node.js
       uses: actions/setup-node@v4
       with:
-        node-version: '18'
+        node-version: '20'
 
-    - name: Install & Build Backend
+    - name: Install Backend
       run: |
         cd backend
         npm install
 
-    - name: Install & Build Frontend
+    - name: Build Frontend
       run: |
         cd frontend
         npm install
         CI=false npm run build
 
-    - name: Docker Build Check
+    - name: Docker Build
       run: |
         docker compose build
