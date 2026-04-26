@@ -11,7 +11,7 @@ then
 fi
 
 # 1. Pull latest code (if in git)
-# echo "📥 Pulling latest changes..."
+# echo "Pulling latest changes..."
 # git pull origin main
 
 # 2. Stop and remove existing containers
@@ -26,6 +26,6 @@ docker-compose up --build -d
 echo "Current Container Status:"
 docker-compose ps
 
-echo "✅ Deployment Successful!"
-echo "🌐 Frontend: http://localhost:5173"
-echo "🔌 Backend API: http://localhost:5001"
+echo "Deployment Successful!"
+echo "Frontend: http://localhost:5173"
+echo "Backend API: http://localhost:5001"
