@@ -11,8 +11,8 @@ then
 fi
 
 # 1. Pull latest code (if in git)
-# echo "Pulling latest changes..."
-# git pull origin main
+echo "Pulling latest changes..."
+git pull origin main
 
 # 2. Stop and remove existing containers
 echo "Cleaning up old containers..."
