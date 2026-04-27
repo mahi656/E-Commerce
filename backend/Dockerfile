@@ -7,6 +7,7 @@ WORKDIR /app
 # Copy package files and install dependencies
 COPY package*.json ./
 RUN npm install --production
+RUN npm install -g pm2
 
 # Copy the rest of the application code
 COPY . .
@@ -15,4 +16,4 @@ COPY . .
 EXPOSE 5001
 
 # Start the application
-CMD ["npm", "start"]
+CMD ["pm2-runtime", "server.js"]
